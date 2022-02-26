@@ -18,7 +18,7 @@ class CambioImagenController2 extends GetxController {
     'https://www.record.com.mx/sites/default/files/styles/v2-crop768x433/public/articulos/2021/08/25/imago-1093601_1.jpg?itok=fLrXTzTe',
   ];
 
-  void cambioImgLeft() {
+  void imgIzquierda() {
     if (indexUrlImg == 0) {
       indexUrlImg = 12;
     } else {
@@ -27,7 +27,7 @@ class CambioImagenController2 extends GetxController {
     update();
   }
 
-  void cambioImgRight() {
+  void imgDerecha() {
     if (indexUrlImg == 12) {
       indexUrlImg = 0;
     } else {

@@ -19,7 +19,7 @@ class CambioImagenPage2 extends StatelessWidget {
             children: [
               IconButton(
                   onPressed: () {
-                    _.cambioImgLeft();
+                    _.imgIzquierda();
                   },
                   icon: const Icon(Icons.arrow_back),
                   color: Colors.red),
@@ -29,7 +29,7 @@ class CambioImagenPage2 extends StatelessWidget {
               ),
               IconButton(
                   onPressed: () {
-                    _.cambioImgRight();
+                    _.imgDerecha();
                   },
                   icon: const Icon(Icons.arrow_forward),
                   color: Colors.red,)
